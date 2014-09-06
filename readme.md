@@ -4,7 +4,7 @@
 ```
 	mvn tomcat7:run
 ```
-Then, You can then access the application here: http://localhost:1337/weather/
+Then, You can then access the application here: <a href="http://localhost:1337/weather/" target="_blank">http://localhost:1337/weather/</a>
 
 ## Compiling the application
 ```
@@ -34,26 +34,26 @@ Then, You can then access the application here: http://localhost:1337/weather/
 			<a href="/src/main/java/com/expedia/weather/model/CurrentObservation.java">CurrentObservation.java</a>
 			<a href="/src/main/java/com/expedia/weather/model/DisplayLocation.java">DisplayLocation.java</a>
 			<a href="/src/main/java/com/expedia/weather/model/ForecastForm.java">ForecastForm.java</a>
-			<a href="/src/main/test/com/expedia/weather/model/validator/ForecastFormValidator.java">ForecastFormValidator.java</a>
+			<a href="/src/test/java/com/expedia/weather/model/validator/ForecastFormValidator.java">ForecastFormValidator.java</a>
 		</td>
 		<td>
 		</td>
 		<td>
-			<a href="/src/main/test/com/expedia/weather/model/ConditionsTest.java">ConditionsTest.java</a>
-			<a href="/src/main/test/com/expedia/weather/model/validator/ForecastFormValidatorTest.java">ForecastFormValidatorTest.java</a>
+			<a href="/src/test/java/com/expedia/weather/model/ConditionsTest.java">ConditionsTest.java</a>
+			<a href="/src/test/java/com/expedia/weather/model/validator/ForecastFormValidatorTest.java">ForecastFormValidatorTest.java</a>
 		</td>
 	</tr>
 	<tr>
 		<td>Repository</td>
 		<td>
 			<a href="/src/main/java/com/expedia/weather/repository/IForecastRepository.java">IForecastRepository.java</a>
-			<a href="/src/main/java/com/expedia/weather/repository/wunderground/ForecastWundergroundRepository.java">ForecastWundergroundRepository.java</a>
+			<a href="/src/main/java/com/expedia/weather/repository/wunderground/ForecastWundergroundRepositoryImpl.java">ForecastWundergroundRepositoryImpl.java</a>
 		</td>
 		<td>
 			<a href="/src/main/resources/spring/repository-config.xml">repository-config.xml</a>
 		</td>
 		<td>
-			<a href="/src/main/test/com/expedia/weather/repository/mock/ForecastWundergroundRepositoryMock.java">ForecastWundergroundRepositoryMock.java</a>
+			<a href="/src/test/java/com/expedia/weather/repository/mock/ForecastWundergroundRepositoryMock.java">ForecastWundergroundRepositoryMock.java</a>
 		</td>
 	</tr>
 	<tr>
@@ -66,7 +66,7 @@ Then, You can then access the application here: http://localhost:1337/weather/
 			<a href="/src/main/resources/spring/service-config.xml">service-config.xml</a>
 		</td>
 		<td>
-			<a href="/src/main/test/com/expedia/weather/service/ForecastServiceWundergroundTest.java">ForecastServiceWundergroundTest.java</a>
+			<a href="/src/test/java/com/expedia/weather/service/ForecastServiceWundergroundTest.java">ForecastServiceWundergroundTest.java</a>
 		</td>
 	</tr>
 	<tr>
@@ -81,7 +81,7 @@ Then, You can then access the application here: http://localhost:1337/weather/
 			<a href="/src/main/resources/messages.properties">messages.properties</a>
 		</td>
 		<td>
-			<a href="/src/main/test/com/expedia/weather/web/ForecastFormControllerTest.java">ForecastFormControllerTest.java</a>
+			<a href="/src/test/java/com/expedia/weather/web/ForecastFormControllerTest.java">ForecastFormControllerTest.java</a>
 		</td>
 	</tr>
 </table>
